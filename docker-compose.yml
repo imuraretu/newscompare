@@ -106,7 +106,7 @@ services:
       - couchdb_data:/opt/couchdb/data
     environment:
       - COUCHDB_USER=admin
-      - COUCHDB_PASSWORD=Letmein123!
+      - COUCHDB_PASSWORD=
     depends_on:
       - elasticsearch
     networks:
