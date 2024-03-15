@@ -1,0 +1,7 @@
+.venv
+.vscode
+.env
+
+dbs
+eggs
+logs
